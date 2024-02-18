@@ -33,9 +33,6 @@ h2 {
   font-size: 137px;
   line-height: 140px;
 }
-#home div .brand_slogan {
-    padding-top: 30px;
-}
 @media (max-width: 767px) {
   h2 {
     font-size: 60px;
