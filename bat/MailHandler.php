@@ -1,10 +1,10 @@
 <?php
 	$owner_email='alexheyer@mac.com';
 	//SMTP server settings	
-	$host = '';
+	$host = 'smtp.mail.me.com';
     $port = '465';//"587";
-    $username = '';
-    $password = '';
+    $username = 'Gitund8791';
+    $password = 'gqhs-opok-pggb-cqkp';
 
     $subject='A message from your site visitor ';
     $user_email='';    
