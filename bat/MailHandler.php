@@ -1,5 +1,5 @@
 <?php
-	$owner_email='#';
+	$owner_email='alexheyer@mac.com';
 	//SMTP server settings	
 	$host = '';
     $port = '465';//"587";
@@ -24,7 +24,7 @@
 	$use_smtp=($host=='' or $username=='' or $password=='');
 	$max_file_size*=1048576;
 
-	if($owner_email=='' || $owner_email=='#'){
+	if($owner_email=='' || $owner_email=='alexheyer@mac.com'){
 		die('Attention, recipient e-mail is not set! Please define "owner_email" variable in the MailHanlder.php file.');
 	}
 
