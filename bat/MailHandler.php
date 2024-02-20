@@ -3,8 +3,8 @@
 	//SMTP server settings	
 	$host = 'smtp.mail.me.com';
     $port = '465';//"587";
-    $username = 'Gitund8791';
-    $password = 'gqhs-opok-pggb-cqkp';
+    $username = '';
+    $password = '';
 
     $subject='A message from your site visitor ';
     $user_email='';    
