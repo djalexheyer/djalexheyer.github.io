@@ -1,7 +1,7 @@
 //TMForm 1.0.1
 $(window).load(function(){
 	$('#contact-form').TMForm({
-		recaptchaPublicKey:'6LeZwukSAAAAAG8HbIAE0XeNvCon_cXThgu9afkj'		
+		recaptchaPublicKey:'OVXQM4gNMzPognAuj'		
 	})
 })
 
