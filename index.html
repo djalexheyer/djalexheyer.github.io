@@ -110,25 +110,29 @@
                 <div class="grid_6">
                     <form id="contact-form" class='contact-form'>
                         <div class="contact-form-loader"></div>
-                        <fieldset>
-                            
-<!-- Fydo Contact Form Widget HTML -->
-<div id="multi-tab" onclick="toggleContactWidget()"><span><i class="bi bi-chat-left-text"></i></span></div>
-<div id="contact-widget" style="display: none;">       
-<h4>Send us a message</h4>
-<p>Name</p><input id="contact-name" placeholder="" type="text" name="name">
-<p>Email</p><input id="contact-email" placeholder="" type="email" name="email" pattern=".+@.+\..+" required>
-<p>Message</p><textarea id="contact-message" placeholder=""></textarea>
-<input type="hidden" name="api_key" value="YOUR_API_KEY_HERE"><!-- Replace YOUR_API_KEY_HERE with your key -->
-<input type="hidden" name="actual_referer" id="actual_referer" value="">
-<button onclick="submitContactWithComments()">Send Message</button>
-<div id="contact-response"></div><br>
-<div id="contact-powered">Powered by <a href="https://fydo.co.uk" target="_blank" >Fydo</a></div></div>
-<script src="https://fydo.co.uk/contact-widget-loader-remote.js"></script>
+                       <div class="container">
+  <form action="action_page.php">
 
-                           
-                        </fieldset>
-                       
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
                     </form>
 
                 </div>
