@@ -937,33 +937,37 @@ h2 + .row {
 }
 
 /*===============  Social List   ====================*/
-.social-list li {
-  display: inline-block;
-}
-.social-list li + li {
-  margin-left: 13px;
-}
-.social-list .fa {
-  width: 102px;
-  height: 102px;
-  font-size: 53px;
-  line-height: 102px;
+.social-media-buttons {
   text-align: center;
-  color: #ffffff;
-  background: #2f2f2f;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+  margin: 20px 0;
 }
-.social-list .fa:hover {
-  color: #fa0377;
+
+.social-media-buttons .btn {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
 }
-@media (max-width: 479px) {
-  .social-list .fa {
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    font-size: 36px;
-  }
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-twitter {
+  background-color: #040404;
+}
+
+.btn-instagram {
+  background-color: #e4405f;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+}
+
+.btn i {
+  margin-right: 8px;
 }
